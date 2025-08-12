@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node dist/server.js",
     "prepare": "husky",
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/server.ts",
     "dist": "npx tsc"
   },
   "keywords": [],
